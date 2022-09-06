@@ -1,0 +1,88 @@
+---
+name: Stephanie
+surname: Hereira-Pacheco
+position: "Investigadora posdoctoral"
+address: "Centro Tlaxcala Biología de la Conducta, Universidad Autónoma de Tlaxcala"
+phone: +55 74547439
+profilepic: foto.jpeg
+email: "shereirap@gmail.com"
+twitter: shereirap
+github: Steph0522
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Situación laboral actual
+
+*Centro Tlaxcala Biología de la Conducta, Universidad Autónoma de Tlaxcala*
+
+Estancia posdoctoral \hfill 2021-presente
+
+\
+
+# Educación
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD en Biotecnología", "2016-2020", "CINVESTAV-IPN", "Ciudad de México, México ",
+    "MSc en en Biotecnología", "2013-2015  ", "CINVESTAV-IPN", "Ciudad de México, México ",
+  "Ingeniera Agroindustrial", "2007-2013 ", " Universidad del Atlántico", "Barranquilla, Colombia" 
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Publicaciones
+
+```{r}
+library(dplyr)
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("references.bib") %>%
+  arrange(author$family, issued)
+```
+
+\
+
+# Formación continua
+
+-   CDSB 2022: Análisis avanzado de metagenomas. Creando tus flujos de análisis con R/Bioconductor. NODO NACIONAL DE BIOINFORMATICA
+
+-   Computational Genomics. A Hands-on Course on Machine Learning for Genomics", 2021. The Berlin Institute for Medical Systems Biology.
+
+\
+
+# Formación del capital humano
+
+-   Curso R básico para ciencia de datos. 2022. Universidad Autónoma de Tlaxcala.
+
+-   Ecología de comunidades en R. 2022. Universidad Autónoma de Tlaxcala.
+
+\newpage
+
+\
+
+
+# Algunas cosas sobre mi
+
+-   Me gusta programar en R y los análisis bioinformáticos y estoy interesada en el estudio del Microbioma.
+
+-   Manejo los siguientes programas: RStudio (R language), QIIME, QIIME2, Linux language, PICRUSt, STAMP, Galaxy, Tax4fun, Python, FUNGuild, Minitab.
+
+\
+
+# Otros productos
+
+-   Joven Investigador de Colciencias. 2013. Valoración de dietas para porcinos con formulaciones que contienen residuos agroindustriales. Universidad del Atlántico/Colombia.
+
+-   Jurado de tesis pregrado. 2016. Detección de Endófitos en Semillas y Raíces de Higuerilla (Ricinus Communis L.). Instituto Politécnico Nacional Unidad Profesional Interdisciplinaria de Biotecnología. Programa de Ingeniería Biotecnológica. Nombre del estudiante: Pedro Morales García.
+
+-   Directora Tesis Técnico Superior. 2017. Estudio de las poblaciones microbianas en Ricinus Communis. Universidad Tecnológica de Tecama. Programa de Química área Biotecnología. Díaz Santiago Rubí Elizabeth Francisco y Hernández Diana Carmen, dirigió como: Asesor Institucional.
+
+-   Estancia de investigación. 2018. Determinación de fenoles totales en tejidos de plantas de Ricinus communis L. Instituto Tecnológico de Tuxtla Gutiérrez. Laboratorio de Biología Molecular. Nombre del asesor: Dr. Víctor Manuel Ruíz Valdiviezo.
