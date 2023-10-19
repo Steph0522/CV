@@ -1,0 +1,130 @@
+---
+name: Stephanie
+surname: Hereira-Pacheco
+position: "Investigadora posdoctoral, SNI nivel 1"
+phone: +55 74547439
+email: "shereirap@gmail.com"
+twitter: shereirap
+github: Steph0522
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Datos generales
+
+Nombre: Stephanie Elizabeth Hereira Pacheco
+\
+RFC: HEPS900522PH4
+\
+CURP: HEPS900522MNERCT07
+\
+Lugar y fecha de nacimiento: Barranquilla, Atlántico, 
+\
+Colombia, 22 de mayo de 1990
+\
+Dirección: UH Felipe Santiago Xicohtencatl Ed 7 Depto C, 
+\
+Tlaxcala, Tlaxcala, México. C.P. 90030.
+\
+Teléfonos: 55 74547439 (celular)
+\
+E-Mail: shereirap@gmail.com , sehereirap@uatx.mx
+\
+Estado civil: Casada
+\
+Hijos: 1
+\
+CVU:  561634
+\
+ORCID: 0000-0003-1433-8187
+
+
+# Situación laboral actual
+
+*Centro Tlaxcala Biología de la Conducta, UNIVERSIDAD AUTÓNOMA DE TLAXCALA*
+
+Estancia posdoctoral \hfill 2021-presente
+
+#  Educación
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD en Biotecnología", "2016-2020", "CINVESTAV-IPN", "Ciudad de México, México ",
+    "MSc en en Biotecnología", "2013-2015  ", "CINVESTAV-IPN", "Ciudad de México, México ",
+  "Ingeniera Agroindustrial", "2007-2013 ", " Universidad del Atlántico", "Barranquilla, Colombia" 
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Estancias posdoctorales
+
+- Análisis metagenómico de la diversidad y composición de las comunidades fúngicas de suelos forestales del transecto Iztaccíhuatl-Popocatépetl (PNIP) y La Malinche (PNLM). 2021-2022. UNIVERSIDAD AUTÓNOMA DE TLAXCALA. 
+
+
+- Procesos ecológicos que definen la diversidad, composición y recambio espacio-temporal de las comunidades fúngicas de suelos forestales del transecto Iztaccíhuatl-Popocatépetl (PNIP) y La Malinche (PNLM). 2022-2023. UNIVERSIDAD AUTÓNOMA DE TLAXCALA. 
+
+# Nombramientos
+
+- Miembro del Sistema Nacional de Investigadores (SNI) Nivel I: enero 2023- diciembre 2027
+
+
+
+# Publicaciones
+
+```{r}
+library(dplyr)
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("references2.bib") %>%
+  arrange(author$family, issued)
+```
+
+
+# Formación continua
+
+-   CDSB 2022: Análisis avanzado de metagenomas. Creando tus flujos de análisis con R/Bioconductor. NODO NACIONAL DE BIOINFORMATICA
+
+-   Computational Genomics. A Hands-on Course on Machine Learning for Genomics", 2021. The Berlin Institute for Medical Systems Biology.
+
+# Docencia en Posgrado
+
+-   Curso R básico para ciencia de datos. 2022. UNIVERSIDAD AUTÓNOMA DE TLAXCALA.
+-   Ecología de comunidades en R. 2022. UNIVERSIDAD AUTÓNOMA DE TLAXCALA. Curso R básico para ciencia de datos. 2023. UNIVERSIDAD AUTÓNOMA DE TLAXCALA.
+-   Curso Bioestadística en R: Análisis de diversidad biológica y estadística paramétrica y no paramétrica. 2023. UNIVERSIDAD AUTÓNOMA DE TLAXCALA.
+-   Curso Estadística para el estudio de la biodiversidad: Pruebas paramétricas y no paramétricas y Análisis de Varianza y Pruebas de comparaciones múltiples para ANOVA. 2023. UNIVERSIDAD AUTÓNOMA DE TLAXCALA.
+
+
+# Tutelaje de tesis y licenciatura y posgrado
+
+- Emanuel Alvarado Pérez. Co-asesora de tesista en la Maestría en Biotecnología y Manejo de Recursos Naturales del El Centro de Investigación en Ciencias Biológicas. 
+-   Fabian Rojas Guerrero. Tutora en comité tutorial de Maestría. 2023. UNVERSIDAD AUTÓNOMA DE TLAXCALA
+-   Mauricio Hernández. Vocal en examen de grado de Doctorado. 2023. UNVERSIDAD AUTÓNOMA DE TLAXCALA
+-   Rubí Elizabeth Díaz Santiago y Diana Carmen Hernández. Directora Tesis Técnico Superior. 2017. Estudio de las poblaciones microbianas en *Ricinus Communis*. Universidad Tecnológica de Tecama. Programa de Química área Biotecnología, dirigió como: Asesor Institucional.
+-   Pedro Morales. Jurado de tesis pregrado. 2016. Detección de Endófitos en Semillas y Raíces de Higuerilla (*Ricinus Communis* L.). Instituto Politécnico Nacional Unidad Profesional Interdisciplinaria de Biotecnología. Programa de Ingeniería Biotecnológica. Nombre del estudiante: Pedro Morales García.
+
+
+# Revisión de artículos científicos en las revistas cientifícas internacionales.
+- Plant and Soil, ISSN: 1573-5036.
+- Field Crops Research, ISSN: 0378-4290.
+
+
+
+# Actividades académicas
+
+-   Sinodal de entrevistas académicas en el área de Biodiversidad de los aspirantes a la Maestría en Ciencias Biológicas. 2023. UNVERSIDAD AUTÓNOMA DE TLAXCALA
+
+
+
+# Otros productos
+
+-   Joven Investigador de Colciencias. 2013. Valoración de dietas para porcinos con formulaciones que contienen residuos agroindustriales. Universidad del Atlántico/Colombia.
+
+
+-   Estancia de investigación. 2018. Determinación de fenoles totales en tejidos de plantas de *Ricinus communis* L. Instituto Tecnológico de Tuxtla Gutiérrez. Laboratorio de Biología Molecular. Nombre del asesor: Dr. Víctor Manuel Ruíz Valdiviezo.
