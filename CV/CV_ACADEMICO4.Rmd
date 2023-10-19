@@ -1,7 +1,7 @@
 ---
 name: Stephanie
 surname: Hereira-Pacheco
-position: "Investigadora posdoctoral, SNI nivel 1"
+position: "Académico Asociado Tiempo completo, SNI nivel 1"
 phone: +55 74547439
 email: "shereirap@gmail.com"
 twitter: shereirap
@@ -46,9 +46,9 @@ ORCID: 0000-0003-1433-8187
 
 # Situación laboral actual
 
-*Centro Tlaxcala Biología de la Conducta, UNIVERSIDAD AUTÓNOMA DE TLAXCALA*
+*Centro de Investigación en Ciencias Biológicas, UNIVERSIDAD AUTÓNOMA DE TLAXCALA*
 
-Estancia posdoctoral \hfill 2021-presente
+Académico Asociado Tiempo completo "A" \hfill Octubre 2023-presente
 
 #  Educación
 
@@ -106,14 +106,14 @@ bibliography_entries("references2.bib") %>%
 - Emanuel Alvarado Pérez. Co-asesora de tesista en la Maestría en Biotecnología y Manejo de Recursos Naturales del El Centro de Investigación en Ciencias Biológicas. 
 -   Fabian Rojas Guerrero. Tutora en comité tutorial de Maestría. 2023. UNVERSIDAD AUTÓNOMA DE TLAXCALA
 -   Mauricio Hernández. Vocal en examen de grado de Doctorado. 2023. UNVERSIDAD AUTÓNOMA DE TLAXCALA
--   Rubí Elizabeth Díaz Santiago y Diana Carmen Hernández. Directora Tesis Técnico Superior. 2017. Estudio de las poblaciones microbianas en *Ricinus Communis*. Universidad Tecnológica de Tecama. Programa de Química área Biotecnología, dirigió como: Asesor Institucional.
+-   Rubí Elizabeth Díaz Santiago y Diana Carmen Francisco Hernández. Directora Tesis Técnico Superior: asesora institucional. 2017. Estudio de las poblaciones microbianas en *Ricinus Communis*. Universidad Tecnológica de Tecama. Programa de Química área Biotecnología, dirigió como: Asesor Institucional.
 -   Pedro Morales. Jurado de tesis pregrado. 2016. Detección de Endófitos en Semillas y Raíces de Higuerilla (*Ricinus Communis* L.). Instituto Politécnico Nacional Unidad Profesional Interdisciplinaria de Biotecnología. Programa de Ingeniería Biotecnológica. Nombre del estudiante: Pedro Morales García.
 
 
 # Revisión de artículos científicos en las revistas cientifícas internacionales.
 - Plant and Soil, ISSN: 1573-5036.
 - Field Crops Research, ISSN: 0378-4290.
-
+- Journal of Soil Science and Plant Nutrition, ISSN: 0718-9516.
 
 
 # Actividades académicas
