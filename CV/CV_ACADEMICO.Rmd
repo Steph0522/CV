@@ -1,15 +1,16 @@
 ---
 name: Stephanie
 surname: Hereira-Pacheco
-position: "Investigadora posdoctoral"
-address: "Centro Tlaxcala Biología de la Conducta, Universidad Autónoma de Tlaxcala"
+position: "Académica Asociada"
+address: "Centro de Investigación en Ciencias Biológicas, UATx"
 phone: +55 74547439
 profilepic: foto.jpeg
 email: "shereirap@gmail.com"
 twitter: shereirap
 github: Steph0522
 date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::twentyseconds
+output: vitae::hyndman
+
 ---
 
 ```{r setup, include=FALSE}
@@ -19,11 +20,16 @@ library(vitae)
 
 # Situación laboral actual
 
+*Centro de Investigación en Ciencias Biológicas, Universidad Autónoma de Tlaxcala*
+
+Académico Asociado \hfill 2023-presente
+
+# Experiencia laboral previa
+
 *Centro Tlaxcala Biología de la Conducta, Universidad Autónoma de Tlaxcala*
 
-Estancia posdoctoral \hfill 2021-presente
+Estancia posdoctoral \hfill 2021-2023
 
-\
 
 # Educación
 
@@ -64,7 +70,10 @@ bibliography_entries("references.bib") %>%
 
 -   Ecología de comunidades en R. 2022. Universidad Autónoma de Tlaxcala.
 
-\newpage
+-   Curso R básico para ciencia de datos. 2023. Universidad Autónoma de Tlaxcala.
+
+-   Bioestadística en R. 2023. Universidad Autónoma de Tlaxcala.
+
 
 \
 
